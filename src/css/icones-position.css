@@ -1,0 +1,33 @@
+.links .primeiro {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.links .segundo {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.links .terceiro {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+.links .quarto {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    transform: translate(50%, 50%)
+}
+
+.links .quinto {
+    position: absolute;
+    bottom: 10%;
+    left: -3%;
+    transform: translate(50%, 50%)
+}
