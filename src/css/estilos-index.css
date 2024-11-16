@@ -1,0 +1,87 @@
+body {    
+    background-image: url('../img/fundo2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mobile {
+    display: none;
+}
+.logo {
+    filter: drop-shadow(10px 0px 15px #45d99656);
+    background-color: var(--fundo);
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo img {
+    width: 350px;
+}
+
+.links {
+    margin-left: 200px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.links .item-menu i {
+    font-size: 5rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.links .item-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 7px;
+}
+
+.links .item-menu:hover {
+    color: #000;
+    background-color: #45D996;
+    filter: drop-shadow(1px 0px 7px #45d996);
+}
+
+.links a {
+    font-size: 3rem;
+    padding: 5px 15px;
+}
+
+
+.dev {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.dev p {
+    font-size: 8px;
+}
+
+.dev span {
+    transition: .3s;
+}
+
+.dev:hover span {
+    filter: drop-shadow(1px 0px 7px black);
+    color: blueviolet;
+}
