@@ -3,6 +3,10 @@ main {
     overflow: hidden;
 }
 
+section.mobile {
+    display: none;
+}
+
 main .desktop {
     position: relative;
     display: flex;

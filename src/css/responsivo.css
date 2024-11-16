@@ -1,0 +1,75 @@
+@media screen and (max-width:768px) {
+    section.desktop {
+        display: none;
+    }
+
+    section.mobile {
+        display: block;
+    }
+
+    i {
+        font-size: 5rem;
+        transition: .3s;
+        margin: 15px;
+        color: var(--verde);
+    }
+
+    main .mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .mobile .mobile-cima {
+        filter: drop-shadow(10px 0px 15px #45d99656);
+        background-color: var(--fundo);
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        border-radius: 50%;
+        top: -8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .mobile .titulo {
+        position: absolute;
+        z-index: 2;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+    }
+
+    .mobile .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .mobile .mobile-meio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px;
+        padding-top: 200px;
+    }
+
+    .mobile .mobile-meio .mobile-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile .redes {
+        margin: 20px;
+    }
+
+    .mobile .redes i {
+        font-size: 2rem;
+    }
+}
